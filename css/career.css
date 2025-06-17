@@ -203,51 +203,6 @@ th {
   padding: 0;
 }
 
-@font-face {
-  font-family: webflow-icons;
-  src: url("https://placehold.co/861x861") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-[class^="w-icon-"],
-[class*=" w-icon-"] {
-  speak: none;
-  font-variant: normal;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  font-family: webflow-icons !important;
-}
-
-.w-icon-slider-right:before {
-  content: "";
-}
-
-.w-icon-slider-left:before {
-  content: "";
-}
-
-.w-icon-nav-menu:before {
-  content: "";
-}
-
-.w-icon-arrow-down:before,
-.w-icon-dropdown-toggle:before {
-  content: "";
-}
-
-.w-icon-file-upload-remove:before {
-  content: "";
-}
-
-.w-icon-file-upload-icon:before {
-  content: "";
-}
-
 * {
   box-sizing: border-box;
 }
@@ -715,10 +670,6 @@ textarea.w-select {
   display: block;
 }
 
-.w-icon-file-upload-remove {
-  margin: auto;
-  font-size: 10px;
-}
 
 .w-file-upload-error-msg {
   color: #ea384c;
@@ -743,16 +694,6 @@ textarea.w-select {
   display: inline;
 }
 
-.w-icon-file-upload-icon,
-.w-icon-file-upload-uploading {
-  width: 20px;
-  margin-right: 8px;
-  display: inline;
-}
-
-.w-icon-file-upload-uploading {
-  height: 20px;
-}
 
 .w-container {
   max-width: 940px;
@@ -1371,13 +1312,6 @@ textarea.w-select {
   overflow: hidden;
 }
 
-.w-slider-arrow-left [class^="w-icon-"],
-.w-slider-arrow-right [class^="w-icon-"],
-.w-slider-arrow-left [class*=" w-icon-"],
-.w-slider-arrow-right [class*=" w-icon-"] {
-  position: absolute;
-}
-
 .w-slider-arrow-left:focus,
 .w-slider-arrow-right:focus {
   outline: 0;
@@ -1393,13 +1327,7 @@ textarea.w-select {
   left: auto;
 }
 
-.w-icon-slider-left,
-.w-icon-slider-right {
-  width: 1em;
-  height: 1em;
-  margin: auto;
-  inset: 0;
-}
+
 
 .w-slider-aria-label {
   clip: rect(0 0 0 0);
@@ -1412,9 +1340,6 @@ textarea.w-select {
   overflow: hidden;
 }
 
-.w-slider-force-show {
-  display: block !important;
-}
 
 .w-dropdown {
   text-align: left;
@@ -1451,15 +1376,7 @@ textarea.w-select {
   outline: 0;
 }
 
-.w-icon-dropdown-toggle {
-  width: 1em;
-  height: 1em;
-  margin: auto 20px auto auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-}
+
 
 .w-dropdown-list {
   background: #ddd;
