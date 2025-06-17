@@ -1250,8 +1250,8 @@ a {
 }
 
 .esports-grid-each.logo {
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+  /* -webkit-backdrop-filter: blur(20px); */
+  /* backdrop-filter: blur(20px); */
   justify-content: center;
   align-items: center;
   display: flex;
@@ -1638,7 +1638,7 @@ a {
 }
 
 .tabs {
-  filter: blur(5px);
+  /* filter: blur(5px); */
 }
 
 @media screen and (min-width: 1440px) {
